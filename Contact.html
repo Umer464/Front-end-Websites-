@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us</title>
+    <style>
+        *{
+            padding:0 ;
+            margin: 0;
+        }
+        #navigation-container {
+    position: relative;
+    background-color: #352d2f;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    padding: 15px 15px;
+    opacity: 1;
+}
+
+li{
+    display: flex;
+    align-items: center;
+}
+li a:hover{
+    background-color: #f44336;
+    cursor: pointer;
+}
+.all{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background: fixed;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(pizza3.jpg) ;
+    background-size: cover;
+    font-family: Century Gothic;
+}
+.title{
+
+    color: #fff;
+}
+.title h1{
+    font-size: 40px;
+    line-height: 25px;
+}
+.title h2{
+    font-size: 16px;
+}
+form{
+    margin-top: 50px;
+}
+.form-control{
+    width: 600px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+input{
+    height: 45px;
+}
+form .submit{
+ background-color: red;
+ border-color: transparent;
+ color: #fff;
+ font-size: 20px;
+ letter-spacing: 2px;
+ height: 50px;
+ margin-top: 20px;
+ transition: 0.4s  ease;
+}
+form .submit:hover{
+     background-color: #f44336;
+    cursor: pointer;
+}
+
+
+
+    </style>
+</head>
+<body>
+    <div id="navigation-container">  
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTM0PEvpAhejTs2VfKH3wKR33U9_quHeA38avRWyak&s" alt="" height="110px" width="150px">  
+        <ul>
+   <li><a href="home.html">HOME</a></li>
+   <li><a href="Menue.html">MENUE</a></li>
+ <li><a href="Deals.html">Our Deals</a></li>
+   <li><a href="About.html">ABOUT</a></li>
+   <li><a href="Contact.html">CONTACT</a></li> 
+</ul>
+</div>
+<div class="all">
+<div class="title">
+    <br><br><br><br><br><br><br><br>
+    <h1>Contact Us</h1><br>
+    <h2>We value your feedback</h2>
+    </div><br>
+    <div class="box" >
+        <form >
+            <input type="text" name="name" class="form-control" placeholder="Enter your name" required><br>
+            <input type="email" name="email" class="form-control" placeholder="Enter your email" required><br>
+            <input type="text" name="Phone no." class="form-control" placeholder="Enter your Phone no." required><br>
+            <textarea name="message" class="form-control" placeholder="Message" rows="4" required></textarea><br>
+            <input type="submit" name="" class="form-control submit" value="Send message">
+        </form>
+    
+</div>
+</div>
+    
+</body>
+</html>

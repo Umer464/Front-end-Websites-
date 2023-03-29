@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <style>
+         *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins',sans-serif;
+        }
+        body {
+  background-image: url(about1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    cursor: pointer;
+}
+#navigation-container{
+    position: relative;
+    background-color: #352d2f;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;   
+}
+ul {
+    display: flex;
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    padding: 15px 15px;
+    opacity: 1;
+}
+
+li {
+    display: flex;
+    align-items: center;
+}
+li a:hover{
+    background-color: #f44336;
+    cursor: pointer;
+}
+.head h1{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.head h2{
+    color: white;
+    margin-left: 37%;
+
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.card{
+    background:transparent;
+    width: 270px;
+    margin: 10px;
+    border-radius: 15px;
+}
+.card-image{
+    height: 170px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px  15px  0  0;
+}
+.pic-1{
+    background-image: url(about2.jpg);
+}
+.pic-2{
+    background-image: url(about3.jpg);
+}
+.pic-3{
+    background-image: url(about4.jpg);
+
+}
+.card p{
+    padding: 10px;
+    color: white;
+    
+}
+.card:hover{
+    background-color: #352d2f;
+    color: white;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 1s ease;
+}
+.all{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(pizza1.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+.card h2{
+    color: white;
+    text-decoration-line: underline;  
+    text-decoration-color: rgb(105,42,49);  
+font-size:30px;  
+ 
+}
+    </style>
+</head>
+<body>
+    <div id="navigation-container">  
+        <img src="https://www.14thstreetpizza.com/website/images/deals/Summer-Deal-Desktop-Grid.png " alt="" height="100px" width="100px">  
+        <ul>
+   <li><a href="Home.html">HOME</a></li>
+   <li><a href="Menue.html">MENUE</a></li>
+   <li><a href="Deals.html">Our Deals</a></li>
+   <li><a href="About.html">ABOUT</a></li>
+   <li><a href="Contact.html">CONTACT</a></li> 
+</ul>
+</div>
+<div class="all">
+<div class="head">
+    <h1> About Us </h1>
+    <h2>Building foundation of quality</h2>
+    <p></p>
+</div>
+<section class="container">
+    <div class="card">
+        <div class="card-image pic-1"></div>
+        <h2> Our Mission</h2>
+        <p>We belive in Integrity, Character and Community.</p>
+        <p>Quality is at our core. It’s the foundation we started with, from the first Pizzateria  pizza that was made in a broom closet in Jeffersonville, IN, to now more than 5,000 locations in 45 countries and territories around the world.</p>
+    </div>
+    <div class="card">
+        <div class="card-image pic-2"></div>
+        <h2>Acheivements</h2>
+        <p>As a company we feel honoured to be part of your memmories. It’s a family gathering, memorable birthday, work celebration or simply a great meal. It’s our goal to make sure you always have the best ingredients for every occasion.</p>
+    </div>
+    <div class="card">
+        <div class="card-image pic-3"></div>
+        <h2>Team</h2>
+        <p>We belive in Diversity, Equity, Inclusion & Teamwork.As this world belong to us all humans. Every employee is a part of our big family.</p>
+    </div>
+</section>
+</div>
+</body> 
+</html>
